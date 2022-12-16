@@ -1,4 +1,4 @@
-C:\Users\Yousif Alnaqar\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.0.8_mapped_official_1.18.2\forge-1.18.2-40.0.8_mapped_official_1.18.2.jar
+C:\Users\Yousif Alnaqar\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.18.2-40.0.8_mapped_official_1.18.2\forge-1.18.2-40.0.8_mapped_official_1.18.2-recomp.jar
 C:\Users\Yousif Alnaqar\.gradle\caches\forge_gradle\minecraft_repo\versions\1.18.2\client-extra.jar
 C:\Users\Yousif Alnaqar\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.2-40.0.8\bafd27f933c50fdfeb4aceaeabde1d7fe8d73c5e\javafmllanguage-1.18.2-40.0.8.jar
 C:\Users\Yousif Alnaqar\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.18.2-40.0.8\6f831b0cb58f9ec83944edddf0f45bffd907d5e6\mclanguage-1.18.2-40.0.8.jar
