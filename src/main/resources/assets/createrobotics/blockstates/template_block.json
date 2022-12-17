@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "createrobotics:block/template_block" }
+  }
+}
