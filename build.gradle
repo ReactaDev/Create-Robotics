@@ -21,8 +21,8 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 
 
 version = '0.0.1'
-group = 'net.Super2019.createrobotics' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'createrobotics'
+group = 'net.Super2019.create_robotics' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'create_robotics'
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -65,10 +65,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'createrobotics'
+            property 'forge.enabledGameTestNamespaces', 'create_robotics'
 
             mods {
-                createrobotics {
+                create_robotics {
                     source sourceSets.main
                 }
             }
@@ -82,10 +82,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'createrobotics'
+            property 'forge.enabledGameTestNamespaces', 'create_robotics'
 
             mods {
-                createrobotics {
+                create_robotics {
                     source sourceSets.main
                 }
             }
@@ -110,10 +110,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'createrobotics'
+            property 'forge.enabledGameTestNamespaces', 'create_robotics'
 
             mods {
-                createrobotics {
+                create_robotics {
                     source sourceSets.main
                 }
             }
@@ -127,10 +127,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'createrobotics', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'create_robotics', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                createrobotics {
+                create_robotics {
                     source sourceSets.main
                 }
             }
@@ -174,12 +174,12 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "createrobotics",
-                "Specification-Vendor"    : "createroboticssareus",
+                "Specification-Title"     : "create_robotics",
+                "Specification-Vendor"    : "create_roboticssareus",
                 "Specification-Version"   : "1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
-                "Implementation-Vendor"   : "createroboticssareus",
+                "Implementation-Vendor"   : "create_roboticssareus",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
